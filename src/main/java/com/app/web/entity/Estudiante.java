@@ -21,6 +21,12 @@ public class Estudiante {
 
     public Estudiante() {
     }
+    public Estudiante(String nombre, String apellido, String email) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+    }
+
     public Estudiante(Long id, String nombre, String apellido, String email) {
         this.id = id;
         this.nombre = nombre;
